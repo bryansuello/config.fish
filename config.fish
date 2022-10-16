@@ -20,6 +20,7 @@ alias 2="cd /home/brys/.config/"
 alias tmuxfix="sudo zypper remove tmux -y && sudo zypper in tmux -y" #tmux fix issue after restart. uninstall and install
 alias n="node"
 alias t="tree"
+alias emacs="code"
 
 
 alias play="node ~/dev/notes/terminalQuizG/app.js"
