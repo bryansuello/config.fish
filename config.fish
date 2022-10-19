@@ -17,14 +17,17 @@ alias cl="clear"
 alias tm="tmux"
 alias 1="cd ~/brys/dev/"
 alias 2="cd ~/.config/"
-alias tmuxfix="sudo zypper remove tmux -y && sudo zypper in tmux -y" #tmux fix issue after restart. uninstall and install
+  #alias tmuxfix="sudo zypper remove tmux -y && sudo zypper in tmux -y" #tmux fix issue after restart. uninstall and install
 alias n="node"
 alias t="tree"
 alias emacs="code"
+alias b="bash"
 
 
 alias play="node ~/dev/notes/terminalQuizG/app.js"
 
-export HOST=localhost #npm start error fix, opens in weapon:3000 instead of localhost:3000/
+
+# npm start error fix, opens in weapon:3000 instead of localhost:3000/
+export HOST=localhost 
 
 end
