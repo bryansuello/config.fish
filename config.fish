@@ -31,3 +31,5 @@ alias play="node ~/dev/notes/terminalQuizG/app.js"
 export HOST=localhost 
 
 end
+
+
