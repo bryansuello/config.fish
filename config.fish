@@ -10,7 +10,7 @@ set -U fish_greeting ""
 
 #alias ls="ls -lah --color=auto"
 alias ls="exa -lah --icons --group-directories-first"
-alias cat="batcat"  #instead of bat
+alias cat="bat"  #instead of bat
 alias vim="lvim"
 alias cl="clear"
 alias tm="tmux"
@@ -24,6 +24,7 @@ alias b="bash"
 alias obsidian="cd /mnt/c/Obsidian_Win/"
 alias downloads="cd /mnt/c/Users/brys/Downloads/"
 alias ssd="cd /mnt/x/Downloads\ \(SSD\)/"
+alias net="speedtest"
 
 
 alias play="node ~/dev/notes/terminalQuizG/app.js"
