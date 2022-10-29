@@ -25,6 +25,7 @@ alias obsidian="cd /mnt/c/Obsidian_Win/"
 alias downloads="cd /mnt/c/Users/brys/Downloads/"
 alias ssd="cd /mnt/x/Downloads\ \(SSD\)/"
 alias net="speedtest"
+alias battery="cat /sys/class/power_supply/BAT1/capacity"
 
 
 alias play="node ~/dev/notes/terminalQuizG/app.js"
