@@ -30,6 +30,8 @@ alias battery="cat /sys/class/power_supply/BAT1/capacity"
 
 alias play="node ~/dev/notes/terminalQuizG/app.js"
 
+#lvim path
+set -U fish_user_paths ~/.local/bin $fish_user_paths
 
 # npm start error fix, opens in weapon:3000 instead of localhost:3000/
 export HOST=localhost 
