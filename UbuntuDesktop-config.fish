@@ -14,23 +14,19 @@ alias cat="batcat"  #instead of bat
 alias vim="lvim"
 alias cl="clear"
 alias tm="tmux"
-alias 1="cd ~/Documents/dev/"
+alias 1="cd ~/Dev/"
 alias 2="cd ~/.config/"
-  #alias tmuxfix="sudo zypper remove tmux -y && sudo zypper in tmux -y" #tmux fix issue after restart. uninstall and install
 alias n="node"
 alias t="tree"
-alias emacs="code"
 alias b="bash"
+alias net="speedtest"
+alias battery="cat /sys/class/power_supply/BAT1/capacity"
 #alias obsidian="cd /mnt/c/Obsidian_Win/"
 #alias downloads="cd /mnt/c/Users/brys/Downloads/"
 #alias ssd="cd /mnt/x/Downloads\ \(SSD\)/"
-alias net="speedtest"
-alias battery="cat /sys/class/power_supply/BAT1/capacity"
+#alias play="node ~/dev/notes/terminalQuizG/app.js"
 
-
-alias play="node ~/dev/notes/terminalQuizG/app.js"
-
-#lvim path
+##lvim path
 set -U fish_user_paths ~/.local/bin $fish_user_paths
 
 # npm start error fix, opens in weapon:3000 instead of localhost:3000/
