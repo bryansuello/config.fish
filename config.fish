@@ -20,9 +20,13 @@ alias b="bash"
 alias net="speedtest"
 alias battery="cat /sys/class/power_supply/BAT1/capacity"
 alias r="ranger"
+alias mountssd="sudo mount -o remount,rw /media/suellobw/SSD/"
+alias remap="xmodmap ~/Xmodmap"
 
+# files
+alias downloads="cd ~/Downloads/"
+alias documents="cd ~/Documents/"
 #alias obsidian="cd /mnt/c/Obsidian_Win/"
-#alias downloads="cd /mnt/c/Users/brys/Downloads/"
 #alias ssd="cd /mnt/x/Downloads\ \(SSD\)/"
 #alias play="node ~/dev/notes/terminalQuizG/app.js"
 
