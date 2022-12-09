@@ -12,18 +12,20 @@ alias cat="batcat"  #instead of bat
 alias vim="lvim"
 alias cl="clear"
 alias tm="tmux"
-alias 1="cd ~/Dev/"
-alias 2="cd ~/.config/"
 alias n="node"
 alias t="tree"
 alias b="bash"
-alias net="speedtest"
-alias battery="cat /sys/class/power_supply/BAT1/capacity"
 alias r="ranger"
 alias mountssd="sudo mount -o remount,rw /media/suellobw/SSD/"
 alias remap="xmodmap ~/Xmodmap"
 
-# files
+# utilities
+alias net="speedtest"
+alias battery="cat /sys/class/power_supply/BAT0/capacity"
+
+# locations
+alias 1="cd ~/Dev/"
+alias 2="cd ~/.config/"
 alias downloads="cd ~/Downloads/"
 alias documents="cd ~/Documents/"
 #alias obsidian="cd /mnt/c/Obsidian_Win/"
