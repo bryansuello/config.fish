@@ -20,7 +20,9 @@ alias mountssd="sudo mount -o remount,rw /media/suellobw/SSD/"
 alias remap="xmodmap ~/Xmodmap"
 
 # utilities
-alias net="speedtest"
+alias netspeed="speedtest"
+#check 'packet lost, 0 means there's connection
+alias net="ping -c 3 google.com" 
 alias battery="cat /sys/class/power_supply/BAT0/capacity"
 
 # locations
